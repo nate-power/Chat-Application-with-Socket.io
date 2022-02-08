@@ -7,8 +7,7 @@ const GroupMessageSchema = new mongoose.Schema({
     },
     room: {
         type: String,
-        required: [true, "Please select a room"],
-        enum: ["General News", "Covid19", "Coding News"]
+        required: [true, "Please select a room"]
     },
     message: {
         type: String,

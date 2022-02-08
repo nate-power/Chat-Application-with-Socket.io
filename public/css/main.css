@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Hahmlet&display=swap');
+
+/* width */
+::-webkit-scrollbar {
+	width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	box-shadow: inset 0 0 5px grey;
+	border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #a4c2ee;
+	border-radius: 10px;
+}
+
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Hahmlet', sans-serif;
+	font-size: 16px;
+	background: #E8E9EB;
+}
+
+.navbar-bg {
+	background-color: #777;
+}
+
+.navbar-logo {
+	font-size: larger;
+	padding-left: 15px;
+}
+
+#logout {
+	margin-right: 15px;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+#errors {
+	color: white;
+}
+
+#auth-container {
+	min-height: 40vh;
+	max-width: 500px;
+	background-color:#817d7d;
+	border-radius: 10px;
+	margin: 50px auto;
+	color: white;
+}
+
+#register-link {
+	font-weight: bold;
+	color: white
+}
+
+#register-link:hover {
+	text-decoration: underline;
+}
+
+#forms {
+	max-width: 60vw
+}
+
+
+/* Join Page */
+.group {
+	max-width: 500px;
+	margin: 60px auto;
+	border-radius: 10px;
+}
+
+.group-header {
+	padding: 20px;
+	background: #817d7d;
+}
+
+.group-main {
+	padding: 30px 40px;
+	background: #646262;
+}
+
+
+/* Chat Page */
+
+.room {
+	max-width: 1100px;
+	margin: 30px auto;
+	overflow: hidden;
+	border-radius: 10px;
+}
+
+.room-header {
+	background: #817d7d;
+	padding: 15px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.room-main {
+	background: #646262;
+}
+
+.chat-messages {
+	padding: 30px;
+	max-height: 500px;
+	min-height: 300px;
+	overflow-y: scroll;	
+}
+
+.chat-messages .message {
+	padding: 10px;
+	margin-bottom: 15px;
+	background: #f1eeee;
+	border-radius: 8px;
+	overflow-wrap: break-word;
+}
+
+.chat-messages .message .title {
+	font-size: 15px;
+	font-weight: bold;
+	margin-bottom: 0px;
+	display: flex;	
+	justify-content: space-between;
+}
+
+.chat-messages .message .title small {
+	color: #777;
+}
+
+.chat-form-container {
+	padding: 20px 30px;
+	background-color: #817d7d;
+}
+
+.chat-form-container form {
+	display: flex;
+	
+}
+
+#message {
+	font-size: 16px;
+	flex: 1;
+	margin-right: 10px;
+}
+
+#typing {
+	color: white;
+	margin-left: 20px;
+	padding-bottom: 10px;
+}
+
